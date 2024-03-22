@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffdfa;
+}
+
+header {
+    background-color: #c4beb5;;
+    color:#c1730e;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color:#2f332d;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: gray;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.mainpic {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px red;
+    align-items: center;
+}
+.alldrinks {
+    /* border: solid 2px red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.drink {
+    /* border: solid 2px blue; */
+    width: 30%;
+    margin: 1%;
+}
+.allpastries {
+    /* border: solid 2px red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.pastries {
+    /* border: solid 2px blue; */
+    width: 30%;
+    margin: 1%;
+}
+.montserrat-subrayada-regular {
+    font-family: "Montserrat Subrayada", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .montserrat-subrayada-bold {
+    font-family: "Montserrat Subrayada", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
